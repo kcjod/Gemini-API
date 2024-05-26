@@ -55,8 +55,9 @@ while True:
 
     ans = input("Would you like to stop? Press 'Y' for Yes and 'N' for No: ")
     match(ans):   
-        case 'Y': break
-        case 'N':
-            print("Thank You!") 
+        case 'Y': 
+          print("Thank You!")
+          break
+        case 'N': 
             continue
     
